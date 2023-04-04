@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar consulta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components.css">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Clínica VetCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                    <a href="schedule.html">
+                        <button type="button" class="btn btn-primary">Agendar consulta</button>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="schedule-form" class="section">
+        <h1>
+            <span class="header-tag">Agendar consulta</span>
+            Proporcione ao seu pet os cuidados que ele merece
+        </h1>
+        <form class="w-75 mt-5 mx-auto">
+            <div class="row mb-4">
+                <div class="col ">
+                    <label for="tutor-name" class="form-label">Nome do tutor(a)</label>
+                    <input type="text" class="form-control" id="tutor-name">
+                </div>
+                <div class="col ">
+                    <label for="tutor-phone" class="form-label">Celular do tutor(a)</label>
+                    <input type="text" class="form-control" id="tutor-phone">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label for="pet-type" class="form-label">O seu pet é...</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>O seu pet é...</option>
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Gato">Gato</option>
+                        <option value="Passáro">Pássaro</option>
+                        <option value="Coelho">Coelho</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="pet-name" class="form-label">Nome do pet</label>
+                    <input type="text" class="form-control" id="pet-name">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label for="schedule-day" class="form-label">Selecione o dia da consulta</label>
+                    <input type="date" class="form-control" id="schedule-day">
+                </div>
+                <div class="col">
+                    <label for="schedule-time" class="form-label">Selecione o horário da consulta</label>
+                    <input type="time" class="form-control" id="schedule-time">
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="schedule-note" class="form-label">Há algo que você gostaria de especificar? (Opcional)</label>
+                <textarea class="form-control" placeholder="O que deveríamos saber ao atender você e seu pet?" id="schedule-note"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Agendar consulta</button>
+        </form>
+
+    </section>
+    <section class="footer">
+        <div class="row gx-5 align-items-center">
+            <div class="col-2">
+                <a class="navbar-brand" href="#">Clínica VetCare</a>
+            </div>
+            <div id="footer-links" class="col-8 d-flex justify-content-center flex-row">
+                <a class="navbar-brand me-4" href="#">Home</a>
+                <a class="navbar-brand me-4" href="#">Serviços</a>
+                <a class="navbar-brand me-4" href="#">Serviços</a>
+                <a class="navbar-brand me-4" href="#">Contato</a>
+                <a class="navbar-brand me-4" href="#">Agendar consulta</a>
+            </div>
+            <div id="footer-social-media" class="col-2 d-flex justify-content-center">
+                <i class="ri-instagram-fill ri-3x me-4"></i>
+                <i class="ri-facebook-box-fill ri-3x me-4"></i>
+                <i class="ri-twitter-fill ri-3x me-4"></i>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+#navbar {
+    padding: 1.5em 6.25em;
+    color: #5946c8;
+    background-color: #f6f5fc;
+}
+
+.navbar-nav {
+    color: #5946c8;
+    align-items: center;
+    gap: 4em;
+}
+
+#services-list,
+#contact,
+#schedule-form,
+#about-us {
+    background-color: #fff;
+    padding: 2.5em 10vw;
+}
+
+#hero {
+    background-color: #fff;
+    padding: 2.5em 6.25em;
+}
+
+#hero .col:nth-child(2) > img {
+    object-fit: cover;
+    height: 70vh;
+}
+
+#hero-footer {
+    background-color: #5946c8;
+    padding: 1.5em 7.5em;
+}
+
+#hero-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#services {
+    background-color: #f6f5fc;
+}
+
+#services .row {
+    margin-top: 2em;
+}
+
+#differentials .col:nth-child(2) > img {
+    object-fit: cover;
+    height: 100%;
+}
+
+#differentials .card {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#differentials > .row {
+    margin-top: 5em;
+}
+
+#reviews {
+    background-color: #f6f5fc;
+}
+
+#footer-cta {
+    background-color: #f6f5fc;
+}
+
+#footer-cta-container {
+    background-color: #5946c8;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+#footer-cta-container .thumbnail {
+    height: 100%;
+}
+
+#footer-cta-container h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+#footer-cta-container button {
+    color: #5946c8;
+    font-weight: 600;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+#footer-cta-container button:hover {
+    background-color: #e9e9e9;
+}
+
+.footer {
+    color: #fff;
+    background-color: #5946c8;
+    padding: 2em 4em;
+}
+
+/*Página de serviços*/
+
+#services-list h1 {
+    margin-bottom: 2em;
+}
+
+#services-list .row {
+    margin-bottom: 10em;
+}
+
+#services-list .row:last-child {
+    margin-bottom: 5em;
+}
+
+#services-list .row .service-content:nth-child(even) {
+    padding-left: 4em;
+}
+
+.service-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: #5946c8;
+}
+
+.service-title h2 {
+    margin-bottom: 0;
+}
+
+.service-topic {
+    color: #5946c8;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding-right: 4em;
+    padding: 1em;
+}
+
+.service-img {
+    padding: 1.5em;
+}
+
+.service-img .thumbnail {
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Página de Agendar Consulta*/
+
+#schedule-form form {
+    margin: 5em 0;
+}
+
+/*Página de contato*/
+
+#contact-cards {
+    margin: 2em 0;
+}
+
+#contact-cards .card {
+    box-shadow: none;
+}
+
+#contact-form {
+    background-color: #f6f5fc;
+    border-radius: 24px;
+}
+
+/*Página sobre nós*/
+#about-us-img {
+    height: 50vh;
+}
+
+#about-us-img .thumbnail {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
